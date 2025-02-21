@@ -1,4 +1,4 @@
-console.log("Email Writer Extension - Content Script Loaded");
+console.log("Email Reply Generator Extension - Content Script Loaded");
 
 function createToneSelector() {
     const select = document.createElement('select');
@@ -75,7 +75,7 @@ function injectButton() {
         return;
     }
 
-    console.log("Toolbar found, creating AI button and tone selector");
+    console.log("Toolbar found, Loading AI button and tone selector");
 
     // Create AI Reply button
     const button = createAIButton();
