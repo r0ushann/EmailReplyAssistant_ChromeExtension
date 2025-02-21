@@ -1,5 +1,11 @@
 # EmailReplyAssistant_ChromeExtension
 
+* The Backend Logic of this Extension is made with Java + SpringBoot and the code can be accessed via my [Github Repository](https://github.com/r0ushann/AIEmailReplyGenerator_Spring_Backend)
+
+* The Backend uses Spring boot and java via rest Controller to fetch Gemini AI Api
+* The backend uses the REST protocol to make API calls on the remote Gemini API
+* Then the response is parsed into the mail via MDN object Tree Model and DOM
+
 ## 🚀 How to Add and Unpack this Chrome Extension (Step-by-Step Guide)
 If you wish to use this Extension locally on your device, clone this repository and follow this steps:
 
